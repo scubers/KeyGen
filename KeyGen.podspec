@@ -32,7 +32,7 @@ TODO: Add long description of the pod here.
 
   s.subspec 'Core' do |ss|
     ss.source_files = 'KeyGen/Classes/**/*'
-    ss.preserve_paths = ['KeyGen/Script/**/*']
+    ss.preserve_paths = ['KeyGen/Classes/Script/**/*']
   end
 
   s.subspec 'Script' do |ss|

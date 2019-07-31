@@ -38,4 +38,7 @@ TODO: Add long description of the pod here.
   s.subspec 'Script' do |ss|
     ss.source_files = 'KeyGen/Script/**/*'
   end
+
+  s.default_subspec = 'Core'
+  
 end

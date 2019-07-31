@@ -1,0 +1,10 @@
+[
+    {
+        "name": "Debug",
+        "keys": {
+            "key": "i_am_key",
+            "secret": "i_am_secret",
+            "meta": "0123456789~!@#$%^&*()?>,./=-_ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
+        }
+    }
+]

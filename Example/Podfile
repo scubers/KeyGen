@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'KeyGen_Example' do
+  pod 'KeyGen', :path => '../', :subspecs => ['Core', 'Script']
+
+  target 'KeyGen_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -1,0 +1,18 @@
+PODS:
+  - KeyGen/Core (0.1.0)
+  - KeyGen/Script (0.1.0)
+
+DEPENDENCIES:
+  - KeyGen/Core (from `../`)
+  - KeyGen/Script (from `../`)
+
+EXTERNAL SOURCES:
+  KeyGen:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KeyGen: b5e01cbc9b794645c5576bf663b27b1cb6c45a0f
+
+PODFILE CHECKSUM: e2703bf7dd55b0e1e28d8b9aa399edfb940cdb9d
+
+COCOAPODS: 1.6.2

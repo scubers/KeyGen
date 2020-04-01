@@ -31,12 +31,12 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.subspec 'Core' do |ss|
-    ss.source_files = 'KeyGen/Classes/Core/**/*'
-    ss.preserve_paths = ['KeyGen/Classes/Script/**/*']
+    ss.source_files = 'KeyGen/Classes/Core/**/*.swift'
+    ss.preserve_paths = ['KeyGen/Classes/Script/**/*.swift']
   end
 
   s.subspec 'Script' do |ss|
-    ss.source_files = 'KeyGen/Classes/Script/**/*'
+    ss.source_files = 'KeyGen/Classes/Script/**/*.swift'
   end
 
   s.default_subspec = 'Core'
